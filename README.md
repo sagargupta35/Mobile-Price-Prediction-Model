@@ -18,13 +18,14 @@ This repository contains a machine learning model for predicting mobile phone pr
 
 ## 🛠️ Steps Followed
 1. **Data Preprocessing**
+   - Used Web Scrapping to map the processor names to its scores by making a csv file.
    - Handled missing values & outliers.
-   - Log transformation for skewed features.
+   - Boxcox transformation for skewed features.
    - Feature scaling & encoding categorical variables.
 2. **Exploratory Data Analysis (EDA)**
    - Visualized distributions, correlations, and feature relationships.
 3. **Feature Engineering**
-   - Applied transformations & feature selection.
+   - Used Function, Column transformers and Pipelines for efficient and reusable transformations.
 4. **Model Training & Hyperparameter Tuning**
    - Used `RandomForestRegressor`, `GradientBoostingRegressor` and `GridSearchCV`/`RandomizedSearchCV`/`VotingRegressor`.
 5. **Evaluation**
