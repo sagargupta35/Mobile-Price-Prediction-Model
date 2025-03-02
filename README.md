@@ -4,8 +4,8 @@ This repository contains a machine learning model for predicting mobile phone pr
 
 ## 📂 Project Structure
 - `notebook.ipynb` → Jupyter Notebook containing the entire workflow of data preprocessing, feature engineering, model training, hyperparameter tuning, and evaluation.
-- `data/` → (If applicable) Folder for dataset files.
-- `models/` → (If applicable) Trained models for predictions.
+- `data/` → Folder for dataset files.
+- `mobile_model.pkl` → Trained models for predictions.
 
 ## 📊 Dataset
 - The dataset consists of mobile phone specifications and their corresponding launch prices.
